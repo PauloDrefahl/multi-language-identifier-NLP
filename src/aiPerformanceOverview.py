@@ -27,7 +27,7 @@ Recall: {recall_distilbert}
 Based on these metrics, which model performed the best overall and why?
 """
 
-client = OpenAI(api_key='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')
+client = OpenAI(api_key='') #Add your key here to test the review.
 #Dr. Koufakou, after a week I will remove this api key from the project. If the key is not there you can let me know and I will add it again so you can run it.
 
 completion = client.chat.completions.create(
