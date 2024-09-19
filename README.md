@@ -10,6 +10,11 @@ This project focuses on comparing the language identification performance of thr
 The dataset used for training and evaluation consists of multilingual text samples in languages including English, Portuguese, Spanish, Italian, and German. Each sample was pre-processed and tokenized using the appropriate tokenizer for the models.
 
 # Results
+
+## Overview 
+
+![Alt text](URL)
+
 ***Accuracy:***  
 - RoBERTa: 96.83%  
 - DistilBERT: 95.10%  
@@ -30,7 +35,15 @@ RoBERTa performed the best overall, especially in handling language pairs like P
 DistilBERT performed closely to RoBERTa but had slightly more difficulty distinguishing between English and German.
 BERT underperformed compared to the other two models, with more confusion across multiple languages.
 
-#Installation
+# Confusion Matrices
+![Alt text](confusionMatrixBERT.png)
+
+![Alt text](confusionMatrixROB.png)
+
+![Alt text](confusionMatrixDIST.png)  
+
+
+# Installation
 To replicate this project, install the required dependencies using the following command:
 
 ```
